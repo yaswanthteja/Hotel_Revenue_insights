@@ -25,9 +25,7 @@ Data Source ---> Power Query --> DAX -> Dashboarding
 	  as weekends. So we delete this column and re-create day_type using calculated columns.
 
 
-day_type=
- 
- var wkd = WEEKDAY(dim_date[date])
+day_type= var wkd = WEEKDAY(dim_date[date])
  return if (wkd>5,"weekend","Weekday")
 
 
