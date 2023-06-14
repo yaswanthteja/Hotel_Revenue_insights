@@ -4,7 +4,7 @@
 ```
 Data Source ---> Power Query --> DAX -> Dashboarding
 ```
------------------------------> Data Loading and Power Query Documentation -------------------------------------->
+-----------------------------> `Data Loading and Power Query Documentation` -------------------------------------->
 
 
 1. Create a folder in Desktop and store all the csv files related to hospitality challenge.
@@ -17,7 +17,7 @@ Data Source ---> Power Query --> DAX -> Dashboarding
    the tables accordingly.
 
 
-*****************  Power Query steps for tables:  *******************
+*****************  `Power Query steps for tables:`  *******************
 1. dim_date:
 	- remove the column 'day_type'
 	- we are deleting this because, we got a feedback from the mock dashboard review that Friday and Saturday are           
